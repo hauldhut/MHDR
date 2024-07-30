@@ -3,7 +3,7 @@ We improved computational drug repositioning by integrating multiple disease sim
 
 ## Structure
 - **Data**: Contains all data 
-- **Code**: Contains all source code to reproceduce all the resuls
+- **Code**: Contains all source code to reproduce all the resuls
 - **Results**: To store simulation results
   - **Evidence**: To store collected evidence
 - **Figures**: To store generated figures from the simulation results
