@@ -1,9 +1,11 @@
 # MHDR: Improving Drug Repositioning Through Multi-Source Disease Similarity Networks
 We improved computational drug repositioning by integrating multiple disease similarity networks into multiplex and multiplex-heterogeneous networks
 
+![Network construction]()
+
 ## Structure
 - **Data**: Contains all data 
-- **Code**: Contains all source code to reproduce all the resuls
+- **Code**: Contains all source code to reproduce all the results
 - **Results**: To store simulation results
   - **Evidence**: To store collected evidence
 - **Figures**: To store generated figures from the simulation results
