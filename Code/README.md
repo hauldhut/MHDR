@@ -1,4 +1,4 @@
-# This data contains all source code used in the manuscript
+# This folder contains all source code used in the manuscript
 
 - **M_LOOCV_ROC_Final.R**: Run Leave-One-Out cross-validation for Monoplex/Multiplex Disease Networks
   - *M1, M2, M3*: For Monoplex Disease Networks (i.e., Disease Similarity Networks)
