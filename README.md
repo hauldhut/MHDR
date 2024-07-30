@@ -12,8 +12,8 @@ We improved computational drug repositioning by integrating multiple disease sim
 
 ## How to run
 - Install R packages
-  - RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, ggplot2, Metrics, hash
+  - *RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, ggplot2, Metrics, hash*
 - Download the repo
 - Follow instructions in the folder **Code** to run
-- 
+  
 - *Note*: For large and complex networks (i.e., multiplex disease networks, and multiplex-hetergeneous networks of drugs and diseases), it is recommended to run on a multi-core and at least 16 GB RAM computer
