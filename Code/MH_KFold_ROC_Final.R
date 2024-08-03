@@ -216,7 +216,7 @@ stopCluster(cl)
 
 
 df.res = data.frame(trial = c(1:nrow(res)),auc = unlist(res[,1]))
-df.res.final = merge(df.res, DiDr.frame2[c("disease","group")], by.x="trial", by.y="group", all.x = TRUE)
+df.res.final = merge(df.res, DiDr.frame2[c("drugid","group")], by.x="trial", by.y="group", all.x = TRUE)
 df.res.final = unique(df.res.final)
 
 Result_byTrialFile = paste0("../Results/",Method,"_byTrial_",DrugSimNet,"_ROC_KFold10.csv")
@@ -237,6 +237,7 @@ cat(Result_by_Score_n_LabelFile,"\n")
 write.csv(res.final,Result_by_Score_n_LabelFile, row.names = FALSE, quote = FALSE)
 # write.csv(data.frame(Scores = Scores, Labels = Labels),Result_by_Score_n_LabelFile, row.names = FALSE, quote = FALSE)
 
+library(ROCR)
 resultspred = prediction(res.final$Scores, res.final$Labels)
 auc.perf = performance(resultspred, measure = "auc")
 aucavgbyAll = round(auc.perf@y.values[[1]],3)
