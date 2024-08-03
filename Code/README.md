@@ -14,4 +14,4 @@
 
 - **Summarize_AUC_ROC.R**: To summarize and draw ROC curves resulted from **M_LOOCV_ROC_Final.R** and **MH_LOOCV_ROC_Final.R**
 
-- **HDR2_MH_Predict_Evidence.R**: To predict and select top 10 highly ranked diseases for each drug, then find evidence supporting the promissing drug-disease associations 
+- **MH_Predict_Evidence_Final.R**: To predict and select top 10 highly ranked diseases for each drug, then find evidence supporting the promissing drug-disease associations 
