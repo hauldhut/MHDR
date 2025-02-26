@@ -8,7 +8,6 @@ We improved computational drug repositioning by integrating multiple disease sim
 - **Code**: Contains all source code to reproduce all the results
 - **Results**: To store simulation results
   - **Evidence**: To store collected evidence
-- **Figures**: To store generated figures from the simulation results
 
 ## How to run
 - Install R packages
