@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/f1f43723-91a7-4637-99d5-d79f3816961b)# This folder contains all source code used in the manuscript
-
+# Code
 - **M_LOOCV_ROC_Final.R**: Run Leave-One-Out cross-validation for Monoplex/Multiplex Disease Networks
   - *M1, M2, M3*: For Monoplex Disease Networks (i.e., Disease Similarity Networks)
   - *M12, M23, M13, M123*: For Multiplex Disease Networks
