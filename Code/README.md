@@ -1,4 +1,4 @@
-# This folder contains all source code used in the manuscript
+![image](https://github.com/user-attachments/assets/f1f43723-91a7-4637-99d5-d79f3816961b)# This folder contains all source code used in the manuscript
 
 - **M_LOOCV_ROC_Final.R**: Run Leave-One-Out cross-validation for Monoplex/Multiplex Disease Networks
   - *M1, M2, M3*: For Monoplex Disease Networks (i.e., Disease Similarity Networks)
@@ -8,7 +8,7 @@
   - *H1, H2, H3*: For Heterogeneous Networks which connect a Drug Similarity Network with a Monoplex Disease Network
   - *MH12, MH23, MH13, MH123*: For Multiplex-Heterogeneous Networks which connect a Drug Similarity Network with a Multiplex Disease Network
  
-- **MH_KFold_ROC_Final.R**: Run K-Fold cross-validation for Heterogeneous/Multiplex-Heterogeneous Networks of Drugs and Diseases
+- **MH_KFold_ROC_Final.R**: Run K-Fold cross-validation for Heterogeneous/Multiplex-Heterogeneous Networks of Drugs and Diseases to compare with TP-NRWRH 
 
 - **Summarize_AUC_Params.R**: To investigate the prediction performance in terms of AUC resulted from **M_LOOCV_ROC_Final.R** and **MH_LOOCV_ROC_Final.R** by parameters
 
