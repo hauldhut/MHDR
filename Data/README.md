@@ -6,7 +6,7 @@
 - **DiseaseSimNet_OMIM.txt** (i.e., DiSimNet_OMIM): Collected and constructed from MimMiner
 - **DiseaseSimNet_HPO.txt** (i.e., DiSimNet_HPO): Constructed based on the Human Phenotype Ontology (HPO)
 - **DiseaseSimNet_GeneNet.txt** (i.e., DiSimNet_GeneNet): Constructed based on known disease-associated genes from OMIM and a gene network (HumanNet)
-### MimMiner/OMIM-based disease similarity network with different kLN and similarity thresholds:
+#### MimMiner/OMIM-based disease similarity network with different kLN and similarity thresholds:
 - **DiseaseSimNet_OMIM_10.txt**: DiSimNet_OMIM kLN=10
 - **DiseaseSimNet_OMIM_15.txt**: DiSimNet_OMIM kLN=15
 - **DiseaseSimNet_OMIM_0.3.txt**: DiSimNet_OMIM sim>=0.3
