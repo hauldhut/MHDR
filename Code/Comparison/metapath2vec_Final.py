@@ -212,7 +212,7 @@ def main(drug_sim_file, disease_sim_file, embedding_size=128, epochs=5, output_f
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Learn embeddings from drug and disease similarity networks")
     parser.add_argument('--drug_sim_file', type=str, default=f"../Data/DrugSimNet_PREDICT.txt", help='Drug sim net')
-    parser.add_argument('--disease_sim_file', type=str, default=f"../Data/DiseaseSimNet_GeneNet.txt", help='Disease sim net')
+    parser.add_argument('--disease_sim_file', type=str, default=f"../Data/DiseaseSimNet_OHG.txt", help='Disease sim net')
     parser.add_argument('--embedding_size', type=int, default=64, help='Size of the embedding vectors')
     parser.add_argument('--epochs', type=int, default=50, help='Number of training epochs for Word2Vec')
     parser.add_argument('--output_file', type=str, default=f'./Results/{emb_method}', help='Output file for embeddings')
