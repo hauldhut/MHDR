@@ -24,11 +24,11 @@ for(Method in Methods){
 
   
   if(Method_k=="H1_10"){
-    DiSimNet1 <- read.delim("../Data/Disease_Similarity_Network_10.sif",header = FALSE)  
+    DiSimNet1 <- read.delim("../Data/DiseaseSimNet_OMIM_10.txt",header = FALSE)  
   }else if(Method_k=="H1_15"){
-    DiSimNet1 <- read.delim("../Data/Disease_Similarity_Network_15.sif",header = FALSE)  
+    DiSimNet1 <- read.delim("../Data/DiseaseSimNet_OMIM_15.txt",header = FALSE)  
   }else{
-    DiSimNet1 <- read.delim("../Data/network_0.3.txt",header = FALSE)  
+    DiSimNet1 <- read.delim("../Data/DiseaseSimNet_OMIM_0.3.txt",header = FALSE)  
   }
   
   DiSimNet1.frame <- data.frame(DiSimNet1[[1]], DiSimNet1[[3]])
@@ -36,7 +36,7 @@ for(Method in Methods){
   DiSimNet1.weight = DiSimNet1[[2]]
   E(DiSimNet1.g)$weight <- DiSimNet1.weight
   
-  DiSimNet2 <- read.delim("../Data/DiseaseSimNet_HPO.sif",header = FALSE)
+  DiSimNet2 <- read.delim("../Data/DiseaseSimNet_HPO.txt",header = FALSE)
   DiSimNet2.frame <- data.frame(DiSimNet2[[1]], DiSimNet2[[3]])
   DiSimNet2.g <- graph.data.frame(d = DiSimNet2.frame, directed = FALSE)
   DiSimNet2.weight = DiSimNet2[[2]]
