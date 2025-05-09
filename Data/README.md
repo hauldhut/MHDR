@@ -11,4 +11,10 @@
 - **Drug2Disease_PREDICT_BinaryInteraction.csv**: Collected from PREDICT study
 
 ## Data sources for evidence collection
-- **Supporting Information.xlsx**: Contains information about drugs, targets, diseases, genes, pathways, protein complexes,... and collected evidence for promissing drug-disease associations
+- **SuppTables.xlsx**: Contains information about drugs, targets, diseases, genes, pathways, protein complexes,... and collected evidence for promissing drug-disease associations
+- **Phenotype2Genes_Full.txt**: Contains information about OMIM known disease-gene associations
+- **Drug2Targets_Full_Detail.txt**: Contains information about KEGG known drug-target interactions
+- **Pathway2Genes_New.txt**: Contains information about KEGG pathways and involved proteins/genes
+- **ProteinComplex2Genes_Human_Latest.txt**: Contains information about CORUM complexes and involved proteins
+- **EntrezGeneInfo_New.txt**: Contains information about NCBI Entrez Genes
+
