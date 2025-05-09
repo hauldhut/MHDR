@@ -23,7 +23,7 @@ DiSimNet1.weight = DiSimNet1[[2]]
 E(DiSimNet1.g)$weight <- DiSimNet1.weight
 
 
-DiSimNet2 <- read.delim("../Data/DiseaseSimNet_HPO.sif",header = FALSE)
+DiSimNet2 <- read.delim("../Data/DiseaseSimNet_HPO.txt",header = FALSE)
 DiSimNet2.frame <- data.frame(DiSimNet2[[1]], DiSimNet2[[3]])
 DiSimNet2.g <- graph.data.frame(d = DiSimNet2.frame, directed = FALSE)
 DiSimNet2.weight = DiSimNet2[[2]]
