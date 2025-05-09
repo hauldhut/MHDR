@@ -8,7 +8,7 @@ library(foreach)
 library(doParallel)
 library(rclinicaltrials)
 
-setwd("~/Manuscripts/99HDR2/Code")
+setwd("~/Manuscripts/99MHDR/Code")
 
 #DiseaseSimNet_OMIM.txt
 #DiseaseSimNet_HPO.sif
